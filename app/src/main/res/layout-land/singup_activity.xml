@@ -34,62 +34,37 @@
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/asdasd"/>
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/asdasd" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="Create\nacount"
+                    android:layout_marginTop="48dp"
+                    android:text="Create acount"
                     android:textColor="#DAE0E8"
-                    android:textSize="40dp"
+                    android:textSize="55dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
-                    app:layout_constraintHorizontal_bias="0.076"
+                    app:layout_constraintHorizontal_bias="0.249"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <TextView
-                android:id="@+id/yourname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="25dp"
-                android:text="Your Name"
-                android:textColor="#DAE0E8"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/entername"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:background="@drawable/fondo_edittext"
-                android:ems="10"
-                android:hint="Enter your Full Name"
-                android:inputType="textPersonName"
-                android:padding="8dp"
-                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/yourmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="15dp"
                 android:text="Your Email"
                 android:textColor="#DAE0E8"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/enteryourmail"
+                android:id="@+id/editTmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -97,64 +72,61 @@
                 android:layout_marginEnd="32dp"
                 android:background="@drawable/fondo_edittext"
                 android:ems="10"
-                android:hint="Enter your  Email"
+                android:hint="Enter your email"
+                android:inputType="textPersonName"
                 android:padding="8dp"
                 android:textSize="16dp" />
 
             <TextView
-                android:id="@+id/yourage"
+                android:id="@+id/yourpasword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:text="Your Age"
-                android:textColor="#DAE0E8"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-
-            <EditText
-                android:id="@+id/enteryouage"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="32dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/fondo_edittext"
-                android:ems="10"
-                android:hint="Enter your birth"
-                android:inputType="date|datetime"
-                android:padding="8dp"
-                android:textSize="16dp" />
-
-            <TextView
-                android:id="@+id/yourpassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="15dp"
                 android:text="Your Password"
                 android:textColor="#DAE0E8"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-
             <EditText
-                android:id="@+id/enteryourpassword"
+                android:id="@+id/editTpasword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginEnd="32dp"
-                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                android:textSize="16dp"
+                android:hint="Enter your password"
                 android:background="@drawable/fondo_edittext"
                 android:ems="10"
-                android:hint="Enter your password "
-                android:inputType="textPassword"
-                android:padding="8dp"
-                android:textSize="16dp" />
+                android:inputType="textPassword" />
 
+            <TextView
+                android:id="@+id/yourrepeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="15dp"
+                android:text="Repeat Password"
+                android:textColor="#DAE0E8"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTrepeat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                android:textSize="16dp"
+                android:hint="Enter your password again"
+                android:background="@drawable/fondo_edittext"
+                android:ems="10"
+                android:inputType="textPassword" />
 
 
             <androidx.appcompat.widget.AppCompatButton
@@ -163,15 +135,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/fondo_btn"
-                android:padding="10dp"
+                android:padding="14dp"
                 android:text="Register"
                 android:textColor="#ffff"
-                android:textSize="20dp"
+                android:textSize="23dp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#CAC3C3"
+                android:layout_marginStart="32dp"
+                android:textAlignment="center"
+                android:text="Already have an acount?" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.ActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/background_btn"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Log in"
+                android:textColor="#ffff"
+                android:textSize="18dp" />
 
         </LinearLayout>
     </ScrollView>

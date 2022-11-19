@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320714265752",
+    "project_id": "pantallasmodelo1",
+    "storage_bucket": "pantallasmodelo1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320714265752:android:1b18a75724748e21106ced",
+        "android_client_info": {
+          "package_name": "com.example.pantallasmodelo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320714265752-t199mvfsnoq6fvmpg29cl0e9atmla6n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6lrzaVQz-xjwOasP9JTkzdEOX7WaVDbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320714265752-t199mvfsnoq6fvmpg29cl0e9atmla6n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
